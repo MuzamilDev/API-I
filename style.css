@@ -1,0 +1,9 @@
+.card-body {
+  border: 10px solid transparent;
+  -o-border-image: linear-gradient(to right, red, rgb(235, 235, 78), maroon) 1;
+     border-image: linear-gradient(to right, red, rgb(235, 235, 78), maroon) 1;
+}
+
+img {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@ async function getArticles() {
     await fetch("https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=RfCEVs0xAxWGrG2rtjHY2XK1OJEbul6A")
     .then(d =>d.json())
     .then(response => {
-        console.log(response.results);
+       // console.log(response.results);
         for(var i = 0; i < response.results.length; i++){
             const output = document.getElementById('output');
             try{
